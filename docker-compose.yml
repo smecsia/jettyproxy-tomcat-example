@@ -1,0 +1,8 @@
+servlet:
+  container_name: proxy-servlet
+  build: .
+  volumes:
+    - ./target:/webapps:ro
+    - .:/run:ro
+  net: host
+  command: 'bash /run/run.sh'

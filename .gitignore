@@ -1,0 +1,25 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+target
+.idea
+*.iml
+*.ipr
+*.iws
+
+/.local-db
+/dump
+
+#compass files
+.sass-cache/
+
+
+#static files
+node_modules
+/server/src/main/webapp/bundle/*
+!/server/src/main/webapp/bundle/js
+!/server/src/main/webapp/bundle/img
+!/server/src/main/webapp/bundle/app
